@@ -85,23 +85,17 @@ h6 {
   font-weight: 800;
 }
 
-#imgLogo2{
-	position: absolute;
-	left: 45%;
-	top: 0%;
-  width:15%;
-  height: auto;
-  padding-top: 8rem;
+.text-marginTop{
+  margin-top: 14%;
 }
-#imgLogo{
-  position: fixed;
-  width: 250px;
-  top: 20%;
-  height: auto;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+
+.whatsapp-color{
+  color: rgb(52,175,35);
 }
+.phone-color{
+  color: #1D809F !important;
+}
+
 .masthead {
   min-height: 30rem;
   position: relative;
@@ -133,15 +127,6 @@ h6 {
     font-size: 5.5rem;
   }
 }
-@media (max-width: 992px) {
-  #divLogo{
-    position: absolute;
-  }
-  #imgLogo{
-    width:15%;
-    top: 16%;
-  }
-  }
 
 /* Side Menu */
 #sidebar-wrapper {
