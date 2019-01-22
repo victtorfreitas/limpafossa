@@ -94,9 +94,9 @@ h6 {
   padding-top: 8rem;
 }
 #imgLogo{
-  position: absolute;
-  width: 25%;
-  top: 15%;
+  position: fixed;
+  width: 250px;
+  top: 20%;
   height: auto;
   left: 50%;
   margin-right: -50%;
@@ -132,29 +132,16 @@ h6 {
     opacity: 1;
     font-size: 5.5rem;
   }
+}
+@media (max-width: 992px) {
+  #divLogo{
+    position: absolute;
+  }
   #imgLogo{
     width:15%;
     top: 16%;
   }
-}
-@media (max-width: 360px) {
-  #imgLogo{
-      width: 30%;
-      top: 10%;
-    }
-}
-@media (max-width: 768px) {
-  #imgLogo{
-      width: 20%;
-      top: 15%;
-    }
-}
-@media (min-width: 2560px) {
-  #imgLogo{
-      width: 10%;
-      top: 20%;
-    }
-}
+  }
 
 /* Side Menu */
 #sidebar-wrapper {
