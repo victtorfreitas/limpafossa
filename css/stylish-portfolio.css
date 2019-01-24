@@ -116,10 +116,13 @@ h6 {
 }
 
 .masthead h1 {
-  opacity: 1;
   font-size: 4rem;
   margin: 0;
   padding: 0;
+}
+.masthead h3 {
+  font-style: italic;
+  font-weight: 550;
 }
 
 @media (min-width: 992px) {
