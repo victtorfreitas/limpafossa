@@ -143,9 +143,9 @@ h6 {
     width: 40%;
   }
 }
-@media (max-width: 380px){
+@media (max-width: 450px){
   #logomarca{
-    margin-top: -10%;
+    margin-top: -25%;
     width: 40%;
   }
   .masthead h1{
