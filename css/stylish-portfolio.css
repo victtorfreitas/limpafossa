@@ -130,10 +130,12 @@ h6 {
     height: 100vh;
   }
   .masthead h1 {
-    font-size: 5.5rem;
+    font-size: 3.5rem;
   }
+
   #logomarca{
     margin-top: -10%;
+    width: 15%;
   }
 }
 
